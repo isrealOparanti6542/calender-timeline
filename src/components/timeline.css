@@ -6,6 +6,7 @@
     .react-calendar-timeline{
       margin-top: 2px;
     }
+     
   
   .react-calendar-timeline .rct-outer {
     display: block;
@@ -116,7 +117,7 @@
   .react-calendar-timeline .rct-dateHeader-primary {
     background-color: initial;
     border-left: 1px solid #bbb;
-    border-right: 1px solid #bbb;
+    border-right: 1px solid #eca7a7;
     font-size: 16px !important;
     font-family: 'Rubik', sans-serif;
     color: #000; }
@@ -148,19 +149,21 @@
     box-shadow: 0px 2px 2px lightgray;
     background-color: #f1f1f1;
     height: 23px;
+
    
   }
   .Flist .Fitem{
      margin-top: 1px;
      margin-right: 13px;
      color: darkslategrey;
-     font-family: Arial, Helvetica, sans-serif;     
+     font-family: Arial, Helvetica, sans-serf;     
      
   }
 
   #refresh{
     margin-left: 13px;
-    font-size: 11px;
+    cursor: pointer; 
+    
  }
  input[type='date'] {
    width: 8rem;
@@ -171,17 +174,26 @@
    /* -webkit-appearance: none; */
  }
  #indicate{
-   margin: 0 auto;
-   font-size: 10px;
+   font-size: 11px;
    font-weight: 600;
+   cursor: pointer;
  }
+ .now{
+   margin-top: -4px !important; 
+ }
+ .zoom{
+   margin-top: -2px !important; 
+}
  .arrow{
-   font-size: 10px;
+   font-size: 20px;
+   font-weight: 900;
+   cursor: pointer;
  }
- .fa-arrow-left{
+ .left{
    margin-right: 10px;
+   
  }
- .fa-arrow-right{
+ .right{
    margin-left: 10px;
  }
  #publish{
